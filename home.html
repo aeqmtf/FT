@@ -11,50 +11,54 @@
     <link rel="stylesheet" type="text/css" href=".\assets\css\style.css" />
 </head>
 <body>
-    <header>        
+    <header class="header">        
         <!-- MENU -->
-        <div id="menu">
-            <nav>
-                <ul>
-                    <li><a href="home.html">
-                        <img src=".\assets\img\LOGO ITP 1.png" id=logo alt="Logo" width="80px" height="80px">
-                    </a></li>
-                    <li><a href="#">Who we are</a></li>
-                    <li><a href="#">Our service</a>
-                        <ul>
-                            <li><a href="#">Marketing</a></li>
-                            <li><a href="#">Technology</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">News & Event</a></li>
-                    <li><a href="#">Careers</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#" id=lang><img src=".\assets\img\Vector.png" alt="lang" width="20px" height="20px"> English</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="menu">
+                <img class="header__menu--icon" src=".\assets\img\menu.svg"  alt="menu" onclick="togglemenu()"></a>    
+                <a href="home.html"><img class="header__logo" src=".\assets\img\Logo.png"  alt="Logo"/></a>
+                <nav>
+                    <ul id="menuList">
+                        <li class="menu__item"><a href="#" class="menu__item--link">Who we are</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item--link">Our Service</a>
+                            <ul class="submenu">
+                                <li class="submenu__item"><a href="#" class ="submenu__item--link" >Marketing</a></li>
+                                <li class="submenu__item"><a href="#" class ="submenu__item--link" >Technology</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__item"><a href="#" class="menu__item--link">News & Events</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item--link" >Careers</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item--link">Contact us</a></li>                    
+                    </ul>
+                </nav>
+                <div class="menu__language">
+                    <div class="menu__language--line"></div>
+                    <img src=".\assets\img\language.svg" class="language-img" alt="Language"/>
+                    <a href="#" class="menu__language--link">English</a>
+                </div>
+            </div>
         </div>
         <!-- /MENU -->
     </header>
-
-    
+ 
     <!-- BANNER -->
-    <section id="banner">
-        <div class="main-banner">
-        <picture id="img-banner">
-            <img src=".\assets\img\banner.png" alt="Main banner" width="1440px" height="753.08px">
-        </picture>
-        <div class="inside-banner">
-            <div class="banner-caption">
-                <h1>Marketing Service</h1>
-                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-                    <div class="button">
-                        <a href="#">SEE MORE</a>
-                    </div>
-            </div>
-    </div>
-    </section>
+    <section class="banner">
+        <div class="container">
+          <div class="banner__content">
+            <h2 class="banner__content--heading">Marketing Service</h2>
+            <p class="banner__content--text">
+              when an unknown printer took a galley of type and scrambled it to
+              make a type specimen book. It has survived not only five
+              centuries,
+            </p>
+            <a href="#" class="btn btn__primary">SEE MORE</a>
+          </div>
+        </div>
+      </section>
     <!-- /BANNER -->
 
+
+    
     <!-- ABOUT US -->
     <section id="about">
         <div class="container">
@@ -83,9 +87,9 @@
     <!-- OUR SERVICE -->
     <section id="service" >
         <div>
-            <div class="section-title">
+            <div class="container">
                 <h2>Our service</h2>
-            </div>
+            
             
             <div class="marketing">
                 <h3>Marketing Service</h3>
@@ -114,7 +118,7 @@
     <!-- WHY CHOOSE US -->
     <section id="choose">
         
-        <div class="section-title">
+        <div class="container">
             <h2>Why choose us?</h2>
             <span><b>We are a digital and branding company that believes in the power of creative strategy and along with great design</b></span>
             <p>We can provide the solution that suits the customer from 360's answer to the customer's request</p>
@@ -126,20 +130,19 @@
                 <img src=".\assets\img\chevrons-right-1.png" alt=""width="10px" height="10px">
                 <p>Suggest customers' benefits and manufacturer benefits through the project.</p>
             </div>
+            <div>
+                <img src=".\assets\img\portrait-successful-handsome-executive-businessman-smart-casual-wear-looking-camera-smiling 1.png" alt="portrait-successful-handsome-executive-businessman-smart-casual-wear-looking-camera-smiling"width="567px" height="319px">
+            </div>
         </div>
-        <div>
-            <img src=".\assets\img\portrait-successful-handsome-executive-businessman-smart-casual-wear-looking-camera-smiling 1.png" alt="portrait-successful-handsome-executive-businessman-smart-casual-wear-looking-camera-smiling"width="567px" height="319px">
-        </div>
+        
     </section>
     <!-- /WHY CHOOSE US -->
 
     <!-- OUR CLIENT -->
     <section id="client">
-        <div class="section-title">
-            <h2>Our client</h2>
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit aliquam adipiscing etiam nunc. Volutpat augue fusce fermentum congue risus in velit maecenas scelerisque.</div>
-        </div>
-    
+    <div class="container">
+        <h2>Our client</h2>
+        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit aliquam adipiscing etiam nunc. Volutpat augue fusce fermentum congue risus in velit maecenas scelerisque.</div>
         <div>
             <a href="#"><img src=".\assets\img\image 1.png" alt="Ideation road" width="196px" height="148px" ></a>
             <a href="#"><img src=".\assets\img\image 2.png" alt="Propel Marketing" width="196px" height="148px"></a>
@@ -147,6 +150,7 @@
             <a href="#"><img src=".\assets\img\image 4.png" alt="ACHAU Media"width="196px" height="148px"></a>
             <a href="#"><img src=".\assets\img\image 5.png" alt="MEC Media" width="115px" height="87px"></a>
         </div>
+    </div>
     </section>
     <!-- /OUR CLIENT -->
 
@@ -228,5 +232,21 @@
         </div>
     </footer>
     <!-- /FOOTER -->
+
+<!-- <script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemneu(){
+        if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="80px";
+            }
+        else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+    }
+</script> -->
+
 </body>
 </html>
