@@ -11,47 +11,51 @@
     <link rel="stylesheet" type="text/css" href=".\assets\css\style.css" />
 </head>
 <body>
-    <header class="header">        
-        <!-- MENU -->
-        <div class="container">
-            <div class="menu">
-                <img class="header__menu--icon" src=".\assets\img\menu.svg"  alt="menu" onclick="togglemenu()"></a>    
-                <a href="home.html"><img class="header__logo" src=".\assets\img\Logo.png"  alt="Logo"/></a>
-                <nav>
-                    <ul id="menuList">
-                        <li class="menu__item"><a href="#" class="menu__item--link">Who we are</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item--link">Our Service</a>
-                            <ul class="submenu">
-                                <li class="submenu__item"><a href="#" class ="submenu__item--link" >Marketing</a></li>
-                                <li class="submenu__item"><a href="#" class ="submenu__item--link" >Technology</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu__item"><a href="#" class="menu__item--link">News & Events</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item--link" >Careers</a></li>
-                        <li class="menu__item"><a href="#" class="menu__item--link">Contact us</a></li>                    
-                    </ul>
-                </nav>
-                <div class="menu__language">
-                    <div class="menu__language--line"></div>
-                    <img src=".\assets\img\language.svg" class="language-img" alt="Language"/>
-                    <a href="#" class="menu__language--link">English</a>
-                </div>
+  <header class="header">        
+    <!-- MENU -->
+    <div class="container">
+        <div class="menu">
+            <img class="header__menu--icon" src=".\assets\img\menu.svg"  alt="menu" onclick="togglemenu()"></a>    
+            <nav>
+                <ul id="menuList">
+                    <li class="menu__item"><a href="#" class="menu__item--link">Who we are</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">Our Service</a>
+                        <ul class="submenu">
+                            <li class="submenu__item"><a href="#" class ="submenu__item--link" >Marketing</a></li>
+                            <li class="submenu__item"><a href="#" class ="submenu__item--link" >Technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">News & Events</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link" >Careers</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item--link">Contact us</a></li>                    
+                </ul>
+            </nav>
+            <a href="home.html"><img class="header__logo" src=".\assets\img\Logo.png"  alt="Logo"/></a>
+            <div class="menu__language">
+                <div class="menu__language--line"></div>
+                <img src=".\assets\img\language.svg" class="language-img" alt="Language"/>
+                <a href="#" class="menu__language--link">English</a>
             </div>
         </div>
-        <!-- /MENU -->
-    </header>
+    </div>
+    <!-- /MENU -->
+</header>
  
     <!-- BANNER -->
-    <section class="banner">
-        <div class="container">
-          <div class="banner__content">
-            <h2 class="banner__content--heading">Marketing Service</h2>
-            <p class="banner__content--text">
+    <section id="banner">
+        <img
+          src=".\assets\img\BannerMB.png"
+          class="img-fluid w-100 banner-img"
+          alt="banner"
+        />
+        <div class="container-xxl">
+          <div class="banner-content">
+            <h2 class="banner-heading">Marketing Service</h2>
+            <p class="banner-text">
               when an unknown printer took a galley of type and scrambled it to
-              make a type specimen book. It has survived not only five
-              centuries,
+              make a type specimen book. It has survived not only five centuries,
             </p>
-            <a href="#" class="btn btn__primary">SEE MORE</a>
+            <a href="#" class="btn">SEE MORE</a>
           </div>
         </div>
       </section>
@@ -60,181 +64,228 @@
 
     
     <!-- ABOUT US -->
-    <section id="about">
+    <section class="about" id="about">
         <div class="container">
-            <div>
-                <div>
-                    <img src="assets\img\Rectangle 25.png" alt="about us" width="568px" height="382px">
-                </div>
-                <div>
-                    <div class="section-title">
-                        <h2>About us</h2>
-                    </div>
-                    
-                    <div><b>ITP, we established in 1916 year in Kyoto, Japan. Our culture will bring their customer how to easy understanding by tools.</b></div>
-                    <p>
-                        While, Creasia, we established in 2011 years in Ho Chi Minh, Vietnam.
-                        Our policy will bring the customer delight through the activation.
-                        ITP&CREASIA, we marge for appealing with own strong points in Vietnam.
-                        We will provide delivery to consult Vietnamese companies and overseas with a smile.
-                    </p>
-                </div>
+          <div class="about-content">
+            <div class="col-half">
+              <h2 class="about-heading">About us</h2>
+              <h3 class="about-subheading">
+                ITP, we established in 1916 year in Kyoto, Japan. Our culture
+                will bring their customer how to easy understanding by tools.
+              </h3>
+              <ul class="about-list">
+                <li class="about-item">
+                  While, Creasia, we established in 2011 years in Ho Chi Minh,
+                  Vietnam.
+                </li>
+                <li class="about-item">
+                  Our policy will bring the customer delight through the
+                  activation.
+                </li>
+                <li class="about-item">
+                  ITP&CREASIA, we marge for appealing with own strong points in
+                  Vietnam.
+                </li>
+                <li class="about-item">
+                  We will provide delivery to consult Vietnamese companies and
+                  overseas with a smile.
+                </li>
+              </ul>
             </div>
+            <img src=".\assets\img\about.png" alt="About us" class="col-half" />
+          </div>
         </div>
-    </section>
+      </section>
     <!-- /ABOUT US -->
 
     <!-- OUR SERVICE -->
-    <section id="service" >
-        <div>
-            <div class="container">
-                <h2>Our service</h2>
-            
-            
-            <div class="marketing">
-                <h3>Marketing Service</h3>
-                <h4>We are a digital and branding company that believes in the power of creative strategy and along with great design</h4>
-                <div>
-                    <p><img src=".\assets\img\↳Color.png" alt="Activation" width="20px" height="20px">Activation</p>
-                    <p><img src=".\assets\img\↳Color.png" alt="Digital" width="20px" height="20px">Digital</p>
-                    <p><img src=".\assets\img\↳Color.png" alt="Creative Design" width="20px" height="20px">Creative Design</p>
-                    <p><img src=".\assets\img\↳Color.png" alt="Consulting" width="20px" height="20px">Consulting</p>
-                </div>
+    <section class="services" id="services">
+        <div class="container">
+          <h2 class="service-heading-main">Our service</h2>
+          <div class="service-content">
+            <div class="col-half" id="marketing">
+              <h3 class="service-heading">Marketing Service</h3>
+              <p class="service-subheading">
+                We are a digital and branding company that believes in the power
+                of creative strategy and along with great design
+              </p>
+              <ul class="service service-left">
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">Activation</span>
+                </li>
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">Creative Design</span>
+                </li>
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">Digital</span>
+                </li>
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">Consulting</span>
+                </li>
+              </ul>
             </div>
 
-            <div class="technology">
-                <h3>Technology Solution</h3>
-                <h4>We are a digital and branding company that believes in the power of creative strategy and along with great design</h4>
-                <div>
-                    <p><img src=".\assets\img\↳Color.png" alt="App/Web Development" width="20px" height="20px">App/Web Development</p>
-                    <p><img src=".\assets\img\↳Color.png" alt="DX Solution" width="20px" height="20px">DX Solution</p>
-                    <p><img src=".\assets\img\↳Color.png" alt="System Development" width="20px" height="20px">System Development</p>
-                </div>
+            <div class="col-half" id="tech">
+              <h3 class="service-heading">Technology Solution</h3>
+              <p class="service-subheading">
+                We are a digital and branding company that believes in the power
+                of creative strategy and along with great design
+              </p>
+              <ul class="service service-right">
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">App/Web Development</span>
+                </li>
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">System Development</span>
+                </li>
+                <li class="service-item">
+                  <img src=".\assets\img\Check.svg" alt="Check" />
+                  <span class="service-item-text">DX Solution</span>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
     <!-- /OUR SERVICE -->
      
     <!-- WHY CHOOSE US -->
-    <section id="choose">
-        
+    <section class="chooses">
         <div class="container">
-            <h2>Why choose us?</h2>
-            <span><b>We are a digital and branding company that believes in the power of creative strategy and along with great design</b></span>
-            <p>We can provide the solution that suits the customer from 360's answer to the customer's request</p>
-            <div class="reason">
-                <img src=".\assets\img\chevrons-right-1.png" alt="" width="10px" height="10px">
-                <p>Offer the solution that how to sell, how to get customer satisfaction.</p>
+          <div class="choose-content">
+            <div class="col-half">
+              <h2 class="choose-heading">Why choose us?</h2>
+              <p class="choose-subheading">
+                We are a digital and branding company that believes in the power
+                of creative strategy and along with great design
+              </p>
+              <span class="text">
+                We can provide the solution that suits the customer from 360's
+                answer to the customer's request.
+              </span>
+              <div class="reason">
+                <img src="./assets/img/chevrons-right.svg" alt="" />
+                <span class="text">
+                  Offer the solution that how to sell, how to get customer
+                  satisfaction.
+                </span>
+              </div>
+              <div class="reason">
+                <img src="./assets/img/chevrons-right.svg" alt="" />
+                <span class="text">
+                  Suggest customers' benefits and manufacturer benefits through
+                  the project.
+                </span>
+              </div>
             </div>
-            <div class="reason">
-                <img src=".\assets\img\chevrons-right-1.png" alt=""width="10px" height="10px">
-                <p>Suggest customers' benefits and manufacturer benefits through the project.</p>
-            </div>
-            <div>
-                <img src=".\assets\img\portrait-successful-handsome-executive-businessman-smart-casual-wear-looking-camera-smiling 1.png" alt="portrait-successful-handsome-executive-businessman-smart-casual-wear-looking-camera-smiling"width="567px" height="319px">
-            </div>
+            <img src="./assets/img/Why choose us.png" alt="Why choose us" class="col-half img-choose" />
+          </div>
         </div>
-        
-    </section>
+      </section>
     <!-- /WHY CHOOSE US -->
 
     <!-- OUR CLIENT -->
-    <section id="client">
-    <div class="container">
-        <h2>Our client</h2>
-        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit aliquam adipiscing etiam nunc. Volutpat augue fusce fermentum congue risus in velit maecenas scelerisque.</div>
-        <div>
-            <a href="#"><img src=".\assets\img\image 1.png" alt="Ideation road" width="196px" height="148px" ></a>
-            <a href="#"><img src=".\assets\img\image 2.png" alt="Propel Marketing" width="196px" height="148px"></a>
-            <a href="#"><img src=".\assets\img\image 3.png" alt="Marketing club" width="182px" height="117px"></a>
-            <a href="#"><img src=".\assets\img\image 4.png" alt="ACHAU Media"width="196px" height="148px"></a>
-            <a href="#"><img src=".\assets\img\image 5.png" alt="MEC Media" width="115px" height="87px"></a>
+    <section class="clients">
+        <div class="container">
+          <div class="client-content">
+            <h2 class="client-heading">Our client</h2>
+            <h3 class="client-subheading">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra,
+              sit aliquam adipiscing etiam nunc. Volutpat augue fusce fermentum
+              congue risus in velit maecenas scelerisque.
+            </h3>
+            <div class="client">
+              <div class="client-item"><img src="./assets/img/client1.png" alt="client" /></div>
+              <div class="client-item"><img src="./assets/img/client2.png" alt="client" /></div>
+              <div class="client-item"><img src="./assets/img/client3.png" alt="client" /></div>
+              <div class="client-item"><img src="./assets/img/client4.png" alt="client" /></div>
+              <div class="client-item"><img src="./assets/img/client5.png" alt="client" /></div>
+            </div>
+          </div>
         </div>
-    </div>
-    </section>
+      </section>
     <!-- /OUR CLIENT -->
 
     <!-- /News -->
-    <section id="recent-news">
+    <section class="recents" id="careers">
         <div class="container">
-            <div class="">
-                <div class="section-title">
-                    <h2>Recent News</h2>
+          <h2 class="recent-heading">Recent News</h2>
+          <div class="recent-card">
+            <div class="recent-card-item">
+              <img src="./assets/img/Recent-img.png" class="recent-card-img" alt="recent"/>
+              <div class="container-card">
+                <div class="recent-card-calendar">
+                  <img src="./assets/img/calendar.svg" alt="calendar"/>
+                  <span class="date">December 31, 2021</span>
                 </div>
-
-                <div>
-                    <div class="box">
-                        <div class="news-image">
-                            <img src=".\assets\img\Rectangle 29.png" alt="" height="368.19px" width="240px">
-                        </div>
-                        <div class="news-title">
-                            <h4><i class="calendar"></i>December 31, 2021</h4>
-                            <h3>Sed ut perspiciatis</h3>
-                        </div>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue.</p>
-                    </div>
-
-                    <div class="box">
-                        <div class="news-image">
-                            <img src=".\assets\img\Rectangle 29.png" alt="" height="368.19px" width="240px">
-                        </div>
-                        <div class="news-title">
-                            <h4><i class="calendar"></i>December 31, 2021</h4>
-                            <h3>Sed ut perspiciatis</h3>
-                        </div>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue.</p>
-                    </div>
-                    <div class="box">
-                        <div class="news-image">
-                            <img src=".\assets\img\Rectangle 29.png" alt="" height="368.19px" width="240px">
-                        </div>
-                        <div class="news-title">
-                            <h4><i class="calendar"></i>December 31, 2021</h4>
-                            <h3>Sed ut perspiciatis</h3>
-                        </div>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue.</p>
-                    </div>
-
+                <h2 class="recent-card-heading">
+                  Sed ut perspiciatis Sed ut perspiciatis Sed ut perspiciatis
+                  Sed ut perspiciatis Sed ut perspiciatis
+                </h2>
+                <div class="recent-card-text">
+                  <span class="text">
+                    Duis mollis, est non commodo luctus, nisi erat porttitor
+                    ligula, eget lacinia odio sem nec elit. Nullam quis risus
+                    eget urna mollis ornare vel. Nulla vitae elit libero, a
+                    pharetra augue.
+                  </span>
                 </div>
-
-                <div>
-                    <a href="#">VIEW ALL</a>
-                </div>
+              </div>
             </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-viewall">VIEW ALL</a>
         </div>
-    </section>
+      </section>
     <!-- /RECENT NEWS -->
 
     <!-- FOOTER -->
-    <footer id="footer">
+    <footer id="contact">
         <div class="container">
-            <div class="">
-
-                <div class="section-title">
-                    <h2>ITP & CREASIA COMPANY</h2>
-                </div>
-                <address>
-                    <ul>
-                        <li><p>HQ: M Floor, Dinh Le Building, No.1 Dinh Le, W.13, Dist.4, Ho Chi Minh City, Vietnam</p></li>
-                        <li><p>Branch: 17 Floor, Discovery Complex Building, No.302 Cau Giay, Dich Vong, Cau Giay, Ha Noi</p></li>
-                        <li><p><a href="mailto:info@itp-creasia.com.vn">Email: info@itp-creasia.com.vn</a></p></li>
-                        <li><p>Phone: (8428) 3825 5130 - (8428) 3826 6010 - (8428) 3825 5130</p></li>
-                    </ul>
-                </address>
-                <ul>
-                    <li><a href="#"><img src=".\assets\img\facebook.png" alt="facebook" height="30px" width="30px"></a></li>
-                    <li><a href="#"><img src=".\assets\img\LinkedIn.png" alt="LinkedIn" height="30px" width="30px"></a></li>
-                </ul>
-                <div class="text">
-                    <p>© ITP&Creasia 2021. All rights reserved.</p>
-                </div>
-            </div>
+          <h2 class="contact-heading">ITP & CREASIA COMPANY</h2>
+          <address>
+            <ul>
+              <li>
+                HQ: M Floor, Dinh Le Building, No.1 Dinh Le, W.13, Dist.4, Ho
+                Chi Minh City, Vietnam
+              </li>
+              <li>
+                Branch: 17 Floor, Discovery Complex Building, No.302 Cau Giay,
+                Dich Vong, Cau Giay, Ha Noi
+              </li>
+              <li>
+                Email:
+                <a href="mailto:info@itp-creasia.com.vn"
+                  >info@itp-creasia.com.vn</a
+                >
+              </li>
+              <li>
+                Phone: <a href=#>(8428) 3825 5130</a> -
+                <a href=#>(8428) 3826 6010</a> -
+                <a href=#>(8428) 3825 5130</a>
+              </li>
+            </ul>
+          </address>
+          <div class="social">
+            <img src="./assets/img/facebook.svg" alt="facebook"/>
+            <img src="./assets/img/linkedin.svg" alt="linkedin"/>
+          </div>
+          <div class="license">
+            <p>&copy; ITP&Creasia 2021. All rights reserved.</p>
+          </div>
         </div>
-    </footer>
+      </footer>
+
     <!-- /FOOTER -->
 
-<!-- <script>
-    var menuList = document.getElementById("menuList");
+<script>
+var menuList = document.getElementById("menuList");
     menuList.style.maxHeight = "0px";
     function togglemneu(){
         if(menuList.style.maxHeight=="0px")
@@ -246,7 +297,7 @@
                 menuList.style.maxHeight = "0px";
             }
     }
-</script> -->
+</script>
 
 </body>
 </html>
